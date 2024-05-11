@@ -1,5 +1,35 @@
+
+body {
+    background-color: #000;
+}
+
+#logocontainer {
+    display:flex;
+    justify-content: center;
+
+}
+
 h1 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
+    font-size: 0.75rem;
+    color: white;
 }
+
+
+
+ul {
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5rem;
+    color: white;
+}
+
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: 1,5rem;
+}
+
+
+
