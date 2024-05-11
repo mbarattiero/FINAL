@@ -1,5 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 /*BORRAR SI NO LO USO*/
 @media screen and (max-width:500px) {
+    img {
+        width: 100%;
+    }
     }
 
 body {
@@ -20,10 +30,11 @@ h1 {
 }
 
 footer {
-    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.5rem;
+    font-size: 0.65rem;
     color: white;
+    justify-content: center;
+    display: inline-block;
 }
 
 
@@ -43,9 +54,8 @@ nav {
 
 .grid-container .grid-item {
     display: grid;
-    border: solid white;
     grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: auto;
     align-items: center;
     row-gap: 1rem;
     column-gap: 1rem;
@@ -54,10 +64,20 @@ nav {
 
 .a {
     color: white;
-    font-size: 0.5rem;
+    font-size: 0.65rem;
     margin: 10px 10px;
     display: flex;
-    flex-wrap: wrap;
+    text-decoration: none;
+    flex-flow: row wrap;
+
+}
+
+.a:hover {
+    text-decoration: underline;    
+}
+
+.a:visited {
+    color: #686568;    
 }
 
 
@@ -71,6 +91,12 @@ nav {
     justify-self: right;
     align-self: right;
     
+}
+
+
+
+.homeimg {
+    width: 100%;
 }
 
 
