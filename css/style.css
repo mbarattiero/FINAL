@@ -36,7 +36,7 @@ h1 {
 }
 
 .p {
-    text-align: left;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.75rem;
     color: white;
@@ -118,7 +118,6 @@ nav {
 }
 
 .inputsend {
-    margin-left: ;
     font-size: x-small;
     font-family: Arial, Helvetica, sans-serif;
     padding: 0.2rem;
@@ -135,8 +134,10 @@ nav {
 
 .flexitem {
     flex-direction: column;
+    padding: 1rem;
 }
 
 .flexitem2 {
     flex-flow: row wrap;
+    padding: 1rem;
 }
