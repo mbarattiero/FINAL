@@ -1,8 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 
 /*BORRAR SI NO LO USO*/
@@ -12,9 +8,7 @@
     }
     }
 
-body {
-    background-color: white;
-}
+
 
 iframe {
     margin: 30px;
@@ -22,19 +16,10 @@ iframe {
 }
 
 
-#logocontainer {
-    justify-content: center;
-    padding: 1rem
 
-}
 
-h1 {
-    text-align: center;
-    font-family: kiona;
-    font-size: 1.5rem;
-    color: black;
-    font-weight: bolder;
-}
+
+
 
 .h2 {
     text-align: center;
@@ -46,76 +31,25 @@ h1 {
     padding: 1rem;
 }
 
-.p {
-    text-align: center;
-    font-family: KIONA;
-    font-size: 0.75rem;
-    color: #0B141A;
-    max-width: 30rem;
-    justify-content: center;
-    font-weight: bold;
-    
-}
-
-.header {
-    background-color: #0B141A;
-}
-
-footer {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.65rem;
-    color: white;
-    justify-content: center;
-    display: inline-block;
-    background-color: #0B141A;
-}
-
-.nav {
-    background-color: #0B141A;
-}
 
 
-ul {
-    list-style: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.5rem;
-    color: white;
-}
 
-nav {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight:bold;
-    font-size: 1,5rem;
-}
 
-.grid-container .grid-item {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto;
-    align-items: center;
-    row-gap: 1rem;
-    column-gap: 1rem;
-    flex-wrap: wrap;
-        
-}
 
-.a {
-    color: #6C757D;
-    font-size: 0.65rem;
-    margin: 10px 10px;
-    display: flex;
-    text-decoration: none;
-    flex-flow: row wrap;
 
-}
 
-.a:hover {
-    text-decoration: underline;    
-}
 
-.a:visited {
-    color: #686568;    
-}
+
+
+
+
+
+
+
+
+
+
+
 
 
 .first-item {
@@ -132,15 +66,9 @@ nav {
 
 
 
-.homeimg {
-    width: 100%;
-}
 
-.inputsend {
-    font-size: x-small;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0.2rem;
-}
+
+
 
 
 

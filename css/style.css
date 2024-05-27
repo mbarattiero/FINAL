@@ -1,162 +1,128 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-
-/*BORRAR SI NO LO USO*/
-@media screen and (max-width:500px) {
-    img {
-        width: 100%;
-    }
-    }
 
 body {
-    background-color: white;
+  background-color: white;
 }
 
-iframe {
-    margin: 30px;
-    max-width: 20rem;
+header {
+  background-color: #0B141A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-
-#logocontainer {
-    justify-content: center;
-    padding: 1rem
-
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
-
-h1 {
-    text-align: center;
-    font-family: kiona;
-    font-size: 1.5rem;
-    color: black;
-    font-weight: bolder;
+main h1 {
+  text-align: center;
+  font-family: kiona;
+  font-size: 1.5rem;
+  color: black;
+  font-weight: bolder;
+  padding-top: 15px;
 }
-
-.h2 {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    color: #2A3942;
-    font-weight: bolder;
-    text-decoration: overline underline;
-    padding: 1rem;
+main img {
+  display: flex;
+  width: 100%;
 }
-
-.p {
-    text-align: center;
-    font-family: KIONA;
-    font-size: 0.75rem;
-    color: #0B141A;
-    max-width: 30rem;
-    justify-content: center;
-    font-weight: bold;
-    
+main p {
+  text-align: center;
+  font-family: KIONA;
+  font-size: 0.75rem;
+  color: #0B141A;
+  max-width: 20rem;
+  justify-content: center;
+  font-weight: bold;
+  padding-top: 15px;
 }
-
-.header {
-    background-color: #0B141A;
+main form {
+  justify-content: center;
+  align-items: center;
 }
-
-footer {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.65rem;
-    color: white;
-    justify-content: center;
-    display: inline-block;
-    background-color: #0B141A;
+main form ul {
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.75rem;
 }
-
-.nav {
-    background-color: #0B141A;
+main form ul li {
+  margin: 20px;
 }
-
-
-ul {
-    list-style: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.5rem;
-    color: white;
+main form p {
+  font-family: KIONA;
+  font-size: 0.75rem;
+  color: #0B141A;
+  max-width: 20rem;
+  font-weight: bold;
+  padding-top: 15px;
+  text-align: left;
+}
+main form input {
+  font-size: x-small;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0.1rem;
 }
 
 nav {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight:bold;
-    font-size: 1,5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 0.75rem;
+  padding-top: 10px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav ul {
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.75rem;
+}
+nav ul li a {
+  text-decoration: none;
 }
 
-.grid-container .grid-item {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto;
-    align-items: center;
-    row-gap: 1rem;
-    column-gap: 1rem;
-    flex-wrap: wrap;
-        
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.65rem;
+  color: white;
+  background-color: #0B141A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+footer ul {
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.75rem;
+}
+footer ul li {
+  margin: 20px;
+}
+footer ul li a {
+  color: #6C757D;
+  font-size: 0.65rem;
+  margin: 10px 10px;
+  display: flex;
+  text-decoration: none;
+  flex-flow: row wrap;
+}
+footer ul li .a:hover {
+  text-decoration: underline;
 }
 
-.a {
-    color: #6C757D;
-    font-size: 0.65rem;
-    margin: 10px 10px;
-    display: flex;
-    text-decoration: none;
-    flex-flow: row wrap;
-
-}
-
-.a:hover {
-    text-decoration: underline;    
-}
-
-.a:visited {
-    color: #686568;    
-}
-
-
-.first-item {
-    justify-self: center;
-    align-self: center;
-    justify-content: center;
-}
-
-.second-item {
-    justify-self: right;
-    align-self: right;
-    
-}
-
-
-
-.homeimg {
-    width: 100%;
-}
-
-.inputsend {
-    font-size: x-small;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0.2rem;
-}
-
-
-
-.flexcontainer {
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items:center;
-}
-
-.flexitem {
-    flex-direction: column;
-    padding: 1rem;
-}
-
-.flexitem2 {
-    flex-flow: row wrap;
-    padding: 1rem;
-}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,68 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    h1 {
+        text-align: center;
+        font-family: kiona;
+        font-size: 1.5rem;
+        color: black;
+        font-weight: bolder;
+        padding-top: 15px;
+    }
+
+    img {
+        display: flex;
+        width: 100%;
+    }
+
+    p {
+        text-align: center;
+        font-family: KIONA;
+        font-size: 0.75rem;
+        color: #0B141A;
+        max-width: 20rem;
+        justify-content: center;
+        font-weight: bold;
+        padding-top: 15px;
+    }
+
+    form {
+        justify-content: center;
+        align-items: center;
+
+        ul {
+            list-style-type: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.75rem;
+
+
+            li {
+                margin: 20px;
+
+            }
+        }
+
+        p {
+            font-family: KIONA;
+            font-size: 0.75rem;
+            color: #0B141A;
+            max-width: 20rem;
+            font-weight: bold;
+            padding-top: 15px;
+            text-align: left;
+
+        }
+
+        input {
+            font-size: x-small;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 0.1rem;
+
+        }
+    }
+
+}
