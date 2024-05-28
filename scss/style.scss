@@ -1,8 +1,14 @@
+// Base
 @import "../scss/reset/reset";
+
+//Layout
 @import "../scss/layout/header";
 @import "../scss/layout/main";
 @import "../scss/layout/nav";
 @import "../scss/layout/footer";
+
+// Media
+@import "../scss/layout/media500";
 
 
 
