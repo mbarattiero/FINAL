@@ -1,4 +1,4 @@
-$font-general: "KIONA";
+$font-general: Arial, Helvetica, sans-serif;
 $color-a: #696969;
 
 @import "../utilities/mixin";
@@ -8,7 +8,7 @@ $color-a: #696969;
 
 .p {
     text-align: center;
-    font-family: "kiona";
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 0.75rem;
     color: #0B141A;
     max-width: 20rem;
